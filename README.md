@@ -18,6 +18,8 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'DataFetchCancellable'
+# or
+pod 'DataFetchCancellable', :git => 'https://github.com/yuyedaidao/DataFetchCancellable.git'
 ```
 
 ## Author
