@@ -1,0 +1,55 @@
+PODS:
+  - Alamofire (5.4.1)
+  - DataFetchCancellable (0.1.0):
+    - Moya
+    - YQListViewModel
+  - Differentiator (5.0.0)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+  - YQListViewModel (0.1.2):
+    - RxDataSources
+
+DEPENDENCIES:
+  - DataFetchCancellable (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Differentiator
+    - Moya
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - YQListViewModel
+
+EXTERNAL SOURCES:
+  DataFetchCancellable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  DataFetchCancellable: 25c4192702c5ee84f4f84c32c9ee76f144b5ee66
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  YQListViewModel: 1c852d9e6abd4d8a71161839ee72b43c1d094189
+
+PODFILE CHECKSUM: 3e1665a04e6e5365f41f6efb545693d7e616dd11
+
+COCOAPODS: 1.10.0
